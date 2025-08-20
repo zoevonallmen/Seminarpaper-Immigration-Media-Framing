@@ -1,4 +1,4 @@
-# Immigration Media Framing ins Swiss newspapers using LLMs
+# Immigration Media Framing in Swiss Newspapers using LLMs
 
 Masterseminarpaper, Module Quantitative Methods
 
