@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Immigration Media Framing ins Swiss newspapers using LLMs
 
 Masterseminarpaper, Module Quantitative Methods
