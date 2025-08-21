@@ -95,3 +95,19 @@ status_response <- GET(
 status_content <- content(status_response, "text", encoding = "UTF-8")
 status_json <- fromJSON(status_content)
 print(status_json)
+
+#Download of the retrieved dataset----------------------------------------------
+
+query_id <- "e40c4432-4c02-4419-9261-53b43f1d84ea"
+download_url <- "https://swissdox.linguistik.uzh.ch/api/download/e40c4432-4c02-4419-9261-53b43f1d84ea__2025_08_21T14_21_20.tsv.xz"
+
+
+download_response <- GET(download_url, headers)
+
+if (status_code(download_response) == 200) {
+  writeBin(content(download_response, "raw"), "dataset.tsv.xz")
+  cat("Download complete. File saved as dataset.tsv.xz\n")
+} else {
+  cat("Download failed:\n")
+  print(content(download_response, "text"))
+}
