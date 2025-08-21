@@ -111,3 +111,18 @@ if (status_code(download_response) == 200) {
   cat("Download failed:\n")
   print(content(download_response, "text"))
 }
+
+
+#Unzip & load data -------------------------------------------------------------
+
+library(R.utils)
+
+gunzip("dataset.tsv.xz", destname = "Immigration_Articles.tsv", remove = FALSE)
+
+# Load the data into R
+data <- read.delim("Data/Immigration_Articles.tsv", sep = "\t", encoding = "UTF-8")
+
+# Preview the first few rows
+head(data)
+
+
