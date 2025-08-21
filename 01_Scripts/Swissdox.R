@@ -72,7 +72,7 @@ response <- POST(
   headers,
   body = list(
     query = yaml_query,
-    name = "Immigration Unlimited", ##change name next time!!
+    name = "Immigration", 
     comment = "Query comment",
     expirationDate = "2025-12-28"
   ),
@@ -80,3 +80,18 @@ response <- POST(
 )
 
 print(content(response, "parsed"))
+
+#Checking the status of submitted queries--------------------------------------
+library(httr)
+library(jsonlite)
+
+API_URL_STATUS <- "https://swissdox.linguistik.uzh.ch/api/status"
+
+status_response <- GET(
+  url = API_URL_STATUS,
+  headers
+)
+
+status_content <- content(status_response, "text", encoding = "UTF-8")
+status_json <- fromJSON(status_content)
+print(status_json)
