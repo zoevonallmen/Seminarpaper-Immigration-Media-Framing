@@ -65,18 +65,18 @@
 ###Final List
 
 #general: 
-- SRF
-- 20 Minuten
-- Blick
-- Tages-Anzeiger
+- SRF                           --> SRF
+- 20 Minuten                    --> ZWA
+- Blick                         --> BLI
+- Tages-Anzeiger                --> TA
 
 #region-specific
-- Neue Zürcher Zeitung
-- Luzerner Zeitung
-- Aargauer Zeitung 
-- Berner Zeitung
-- Der Bund
-- Wallisser Bote
-- Thuner Taglatt
-- Südostschweiz
-- St. Galler Tagblatt
+- Neue Zürcher Zeitung          --> NZZ
+- Luzerner Zeitung              --> LUZ
+- Aargauer Zeitung              --> AZ
+- Berner Zeitung                --> BZ
+- Der Bund                      --> BU
+- Wallisser Bote                --> unavailable
+- Thuner Taglatt                --> THT
+- Südostschweiz                 --> unavailable
+- St. Galler Tagblatt           --> SGT
