@@ -51,5 +51,13 @@ As the task is more complex, zero-shot prompting is likely insufficient.
 The prompt formats to test should therefor include best-practices like chain-of-thought 
 reasoning, role assignment and example-based learning (few-shot).
 
+---
 
+### Prompts: 
+A) Few-shot
+B) Chain-of-thought
+C) Combination: Chan-of-thought and examples
 
+=> Compute prompts in german, as articles are in german as well
+
+=> To compare, add justification
