@@ -1,0 +1,83 @@
+### Anleitung:
+Du bist Experte für Schweizer Politik und politische Kommunikation.
+
+Deine Aufgabe besteht darin, zu analysieren, wie das Thema Einwanderung in den folgenden Schweizer Zeitungsartikeln im Zusammenhang mit einer wichtigen Volksabstimmung dargestellt wird, indem du einem schrittweisen Denkprozess folgst.
+
+Gehe folgendermassen vor: 
+1. Lies den Artikel sorgfältig.
+2. Reflektiere kurz, ob und wie jede der acht Frame-Kategorien vorkommt.
+3. Gib dann die finale strukturierte Antwort in angegebenen Format zurück
+
+### Frames:
+1. Wirtschaftliche Bedrohung: stellt Einwanderung als Belastung für die Wirtschaft, den Arbeitsmarkt oder die Sozialleistungen dar  
+2. Wirtschaftlicher Nutzen: stellt Einwanderung als wirtschaftlich vorteilhaft oder notwendig dar  
+3. Kulturelle Bedrohung: suggeriert, dass Einwanderung die Schweizer Identität oder Werte bedroht  
+4. Sicherheit: verbindet Einwanderung mit Kriminalität, Terrorismus oder Instabilität  
+5. Humanitär: stellt Migranten als Opfer dar, die Mitgefühl oder Unterstützung verdienen  
+6. Verantwortung: macht bestimmte Akteure (EU, Migranten, Regierung usw.) → verantwortlich Wer wird beschuldigt?
+7. Moral: verwendet moralische oder ethische Argumente, entweder für oder gegen Einwanderung → Ist der Appell liberal oder restriktiv?  
+8. Konflikt: betont politische oder gesellschaftliche Konflikte im Zusammenhang mit Einwanderung → Wer sind die Konfliktparteien? 
+
+---
+
+### Output Format:
+Frames vorhanden: [Liste der vorhandenen Frames (Nummern)]
+Dominanter Frame: [eine Nummer]
+
+Verantwortungs-Frame:
+- Beschuldigte/r Akteur(e): [...]
+
+Moral-Frame:
+- Moralische Position: Liberal / Restriktiv / Keine
+
+Konflikt-Frame:
+- Konfliktparteien: [...]
+
+Begründung: 
+„[Deine umformulierte Begründung oder ein Zitat]“
+
+
+--- ENGLISH TRANSLATION --------------------------------------------------------
+
+
+### Instructions:
+You are an expert in Swiss politics and political communication.
+
+Your task is to analyze how the topic of immigration is presented in the following Swiss newspaper articles in connection with an important referendum, by following a step-by-step reasoning process.
+
+Please complete the following:
+
+1. Read the article carefully.  
+2. Briefly reflect on whether and how each of the eight frame categories appears.  
+3. Then return the final structured output in the specified format
+
+
+###Frame categories:
+1. Economic Threat: portrays immigration as a burden to the economy, jobs, or welfare  
+2. Economic Benefit: presents immigration as economically beneficial or necessary  
+3. Cultural Threat: suggests immigration threatens Swiss identity or values  
+4. Security: links immigration to crime, terrorism, or instability  
+5. Humanitarian: presents migrants as victims deserving empathy or support  
+6. Responsibility/Blame: blames specific actors (EU, migrants, government, etc.) → Who is blamed?
+7. Moral: uses moral or ethical arguments, either for or against immigration → Is the appeal liberal or restrictive?
+8. Conflict: emphasizes political or societal clashes over immigration → Who are the conflict parties? 
+
+---
+
+### Output Format:
+Frames Present: [list of frame numbers]  
+Dominant Frame: [one frame number]
+
+Responsibility Frame:
+- Blamed Actor(s): [...]
+- Justified or Manipulative?: [...]
+
+Moral Frame:
+- Moral Position: Liberal / Restrictive / None
+
+Conflict Frame:
+- Conflict Parties: [...]
+- Nature of Conflict: [...]
+
+Justification for Dominant Frame:
+"[Your paraphrased justification or quote]"
