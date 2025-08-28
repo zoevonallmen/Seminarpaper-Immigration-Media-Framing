@@ -55,6 +55,7 @@ Generic frames, such as blaming different actors (for example politicians or ref
 immigrants themselves) or portraying debates as conflucts can also shape interpretation
 regardless of a specific topic.
 
+-------------------------------------------------------------------------------
 
 1. Economic Threat Frame (issue-specific)
 ------------------------------------------
@@ -67,6 +68,10 @@ Reasoning devices:
 - Cause: High inflow of migrants using resources
 - Evaluation: System overload, unfair to "the Swiss"
 - Solution: Restrict immigration, reduce benefits
+
+Example sentence: "Switzerland can no longer afford to sustain the economic 
+weight of uncontrolled immigration."
+
 ---------------------------------------------------
 
 2. Economic Benefit Frame (issue-specific) 
@@ -80,6 +85,10 @@ Reasoning devices:
 - Evaluation: Immigration leads to economic growth, fills "gaps"
 - Solution: Maintain access to foreign labor, uphold free movement agreements
 
+Example sentence: "Our hospitals and research institutions rely on skilled 
+migrants to remain globally competitive."
+
+---------------------------------------------------------
 
 3. Cultural Threat Frame (issue-specific)
 ---------------------------------------------------
@@ -95,6 +104,10 @@ Reasoning devices:
 - Cause: Immigration from culturally distant countries
 - Evaluation: Incompatability
 - Solution: Reinforce "national values" by restricting entry
+
+Example sentence: "The influx of foreign cultures is changing our traditions 
+beyond recognition."
+
 ------------------------------------------------------------
 
 4. Security Frame (issue-specific)
@@ -109,6 +122,10 @@ Reasoning devices:
 - Cause: "weak" border control or failed asylum policy
 - Evaluation: fear, disorder
 - Solution: tighten borders, deport immigrants
+
+Example sentence: "Soft immigration laws have allowed dangerous criminals to 
+enter our communities."
+
 -----------------------------------------------------------------
 
 5. Humanitarian frame (issue-specific)
@@ -121,7 +138,11 @@ Reasoning devices
 - Cause: Conflict, percecution, war
 - Evaluation: Moral obligation to help
 - Solution: offer asylum, humanitarian aid
-----------------------------------------------------------------
+
+Example sentence:  "These families are escaping war zones. Turning them away 
+would be inhumane."
+
+--------------------------------------------------------------
 
 6. Responsability Frame (generic)
 ------------------------------------------------------------------
@@ -137,6 +158,10 @@ Reasoning devices:
 
 Additionally:
 --> Name actors who are blamed
+
+Example sentence: "The EU is dictating our immigration policies. It's time to 
+take back control."
+
 
 -----------------------------------------------------------------
 
@@ -158,6 +183,12 @@ Additionally:
 --> Does the moral appeal support liberal (pro-immigration) or restrictive 
 (anti-immigration) positions
 
+Example sentence:  
+- Pro-immigration: "Turning away refugees at our borders is a moral failure."
+- Amti-immigration: "We have a moral duty to protect our values and our community 
+                    from being overwhelmed."
+
+
 -----------------------------------------------------------------------
 
 8. Conflict Frame (generic)
@@ -174,4 +205,10 @@ Reasoning devices
 Additionally:
 --> Name conflict parties
 
+Example sentence: As usual, the SVP and Greens are at each other’s throats over 
+immigration policy."
+
+
 -------------------------------------------------------------------------
+
+--> Should the prompt be written in german as articles are in german? 
