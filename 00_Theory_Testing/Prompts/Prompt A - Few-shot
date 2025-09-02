@@ -22,59 +22,59 @@ Für jeden Frame:
 
 ---
 
-### Beispiel:
+### Beispiele:
 
-Auszug:  
-„Die Zuwanderung belastet zunehmend das Gesundheitswesen und führt zu Lohndruck.“
+#Beispiel 1
 
-Output:
-Vorhandene Frames: 1, 6  
+Auszug: "Die steigende Zuwanderung überfordert unsere Sozialsysteme und belastet den Arbeitsmarkt. Die EU zwingt uns zu offenen Grenzen, obwohl die Bevölkerung darunter leidet. Die SVP fordert ein entschiedenes Vorgehen, während linke Parteien die Augen vor den Problemen verschliessen."
+
+Output:   
+Vorhandene Frames: 1, 6, 7, 8 
 Dominanter Frame: 1
 
 Verantwortungs-Frame:
-- Beschuldigte Akteure: Migranten
+- Beschuldigte Akteure: EU, linke Parteien
+
+Moral-Frame:
+- Position: restriktiv
+
+Konflikt-Frame:
+- Konfliktparteien: SVP vs. linke Parteien
 
 Begründung:
-Einwanderung wird als Belastung für das Gesundheits- und Lohnsystem dargestellt („belastet ... Lohndruck“).
+Der Artikel betont die Einwanderung als Belastung für Sozialleistungen und Beschäftigung und stellt damit die wirtschaftliche Bedrohung in den Vordergrund.
 
+-
 
---- ENGLISH TRANSLATION --------------------------------------------------------
+#Beispiel 2
 
-
-### Instructions:
-You are an expert in Swiss politics and political communication.
-
-Your task is to analyze how immigration is framed in the following Swiss newspaper articles related to a major referendum. Use the frame categories below.
-
-For each frame:
-- Identify which of the eight frames are present (you may select multiple).
-- Identify which single frame is the dominant one.
-- Provide a short justification (1–2 sentences, quote or paraphrase).
-- For frames 6–8 (Responsibility, Moral, Conflict), answer the additional questions if the frames are present.
-
-
-### Frame categories:
-1. Economic Threat: portrays immigration as a burden to the economy, jobs, or welfare  
-2. Economic Benefit: presents immigration as economically beneficial or necessary  
-3. Cultural Threat: suggests immigration threatens Swiss identity or values  
-4. Security: links immigration to crime, terrorism, or instability  
-5. Humanitarian: presents migrants as victims deserving empathy or support  
-6. Responsibility/Blame: blames specific actors (EU, migrants, government, etc.) → Who is blamed?
-7. Moral: uses moral or ethical arguments, either for or against immigration → Is the appeal liberal or restrictive?
-8. Conflict: emphasizes political or societal clashes over immigration → Who are the conflict parties? 
-
----
-
-### Example:
-
-Excerpt:  
-“Immigration is placing an increasing burden on the healthcare system and leading to wage pressure.”
+Auszug: "Ohne ausländische Arbeitskräfte würden viele Spitäler, Forschungszentren und Landwirtschaftsbetriebe nicht funktionieren. Zudem haben viele dieser Menschen Krieg und Verfolgung hinter sich. Menschlichkeit und Solidarität sind zentrale Werte unserer Gesellschaft."
 
 Output:
-Frames Present: 1, 6  
-Dominant Frame: 1
+Vorhandene Frames: 2, 5, 7
+Dominanter Frame: 2
 
-Responsibility Frame:
-- Blamed Actor(s): Migrants
+Moral-Frame: 
+- Position: liberal
 
-Reason: Immigration is portrayed as a burden on public systems and wages (“places a burden on ... wage pressure”).
+Begründung:
+Der Artikel argumentiert in erster Linie für die Notwendigkeit der Einwanderung, um wichtige Sektoren der Schweizer Wirtschaft aufrechtzuerhalten.
+
+-
+
+#Beispiel 3: 
+
+Auszug: "Mit der anhaltenden Einwanderung verändert sich unsere kulturelle Identität. Viele Neuankömmlinge integrieren sich nicht, was zu Spannungen und steigender Kriminalität führt. Die Regierung hat jahrelang versagt, konsequent durchzugreifen. Wir sind es den Bürgern schuldig, unsere Werte zu schützen"
+
+Output: 
+Vorhandene Frames: 3, 4, 6, 7
+Dominanter Frame: 3
+
+Verantwortungs-Frame: 
+- Beschuldigte Akteure: Regierung
+
+Moral-Frame: 
+- Position: restriktiv
+
+Begründung:
+Das zentrale Anliegen ist der Verlust der kulturellen Identität der Schweiz aufgrund der Einwanderung, wobei andere Rahmenbedingungen diese Erzählung noch verstärken.
