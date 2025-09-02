@@ -1,0 +1,98 @@
+### Anleitung:
+Du bist Experte für Schweizer Politik und politische Kommunikation.
+
+Deine Aufgabe besteht darin, zu analysieren, wie das Thema Einwanderung in den folgenden Schweizer Zeitungsartikeln im Zusammenhang mit einer wichtigen Volksabstimmung dargestellt wird, indem du einem schrittweisen Denkprozess folgst.
+
+Gehe folgendermassen vor: 
+1. Lies den Artikel sorgfältig.
+2. Reflektiere kurz, ob und wie jede der acht Frame-Kategorien vorkommt.
+3. Gib dann die finale strukturierte Antwort in angegebenen Format zurück
+
+### Frames:
+1. Wirtschaftliche Bedrohung: stellt Einwanderung als Belastung für die Wirtschaft, den Arbeitsmarkt oder die Sozialleistungen dar  
+2. Wirtschaftlicher Nutzen: stellt Einwanderung als wirtschaftlich vorteilhaft oder notwendig dar  
+3. Kulturelle Bedrohung: suggeriert, dass Einwanderung die Schweizer Identität oder Werte bedroht  
+4. Sicherheit: verbindet Einwanderung mit Kriminalität, Terrorismus oder Instabilität  
+5. Humanitär: stellt Migranten als Opfer dar, die Mitgefühl oder Unterstützung verdienen  
+6. Verantwortung: macht bestimmte Akteure (EU, Migranten, Regierung usw.) → verantwortlich Wer wird beschuldigt?
+7. Moral: verwendet moralische oder ethische Argumente, entweder für oder gegen Einwanderung → Ist der Appell liberal oder restriktiv?  
+8. Konflikt: betont politische oder gesellschaftliche Konflikte im Zusammenhang mit Einwanderung → Wer sind die Konfliktparteien? 
+
+Als dominanter Frame gilt derjenige, der den Hauptfokus oder die zentrale Argumentation des Artikels trägt. 
+
+---
+
+### Output Format:
+Frames vorhanden: [Liste der vorhandenen Frames (Nummern)]
+Dominanter Frame: [eine Nummer]
+
+Verantwortungs-Frame:
+- Beschuldigte/r Akteur(e): [...]
+
+Moral-Frame:
+- Moralische Position: Liberal / Restriktiv / Keine
+
+Konflikt-Frame:
+- Konfliktparteien: [...]
+
+Begründung: 
+„[Deine umformulierte Begründung oder ein Zitat]“
+
+---
+
+### Beispiele:
+
+#Beispiel 1
+
+Auszug: "Die steigende Zuwanderung überfordert unsere Sozialsysteme und belastet den Arbeitsmarkt. Die EU zwingt uns zu offenen Grenzen, obwohl die Bevölkerung darunter leidet. Die SVP fordert ein entschiedenes Vorgehen, während linke Parteien die Augen vor den Problemen verschliessen."
+
+Output:   
+Vorhandene Frames: 1, 6, 7, 8 
+Dominanter Frame: 1
+
+Verantwortungs-Frame:
+- Beschuldigte Akteure: EU, linke Parteien
+
+Moral-Frame:
+- Position: restriktiv
+
+Konflikt-Frame:
+- Konfliktparteien: SVP vs. linke Parteien
+
+Begründung:
+Der Artikel betont die Einwanderung als Belastung für Sozialleistungen und Beschäftigung und stellt damit die wirtschaftliche Bedrohung in den Vordergrund.
+
+-
+
+#Beispiel 2
+
+Auszug: "Ohne ausländische Arbeitskräfte würden viele Spitäler, Forschungszentren und Landwirtschaftsbetriebe nicht funktionieren. Zudem haben viele dieser Menschen Krieg und Verfolgung hinter sich. Menschlichkeit und Solidarität sind zentrale Werte unserer Gesellschaft."
+
+Output:
+Vorhandene Frames: 2, 5, 7
+Dominanter Frame: 2
+
+Moral-Frame: 
+- Position: liberal
+
+Begründung:
+Der Artikel argumentiert in erster Linie für die Notwendigkeit der Einwanderung, um wichtige Sektoren der Schweizer Wirtschaft aufrechtzuerhalten.
+
+-
+
+#Beispiel 3: 
+
+Auszug: "Mit der anhaltenden Einwanderung verändert sich unsere kulturelle Identität. Viele Neuankömmlinge integrieren sich nicht, was zu Spannungen und steigender Kriminalität führt. Die Regierung hat jahrelang versagt, konsequent durchzugreifen. Wir sind es den Bürgern schuldig, unsere Werte zu schützen"
+
+Output: 
+Vorhandene Frames: 3, 4, 6, 7
+Dominanter Frame: 3
+
+Verantwortungs-Frame: 
+- Beschuldigte Akteure: Regierung
+
+Moral-Frame: 
+- Position: restriktiv
+
+Begründung:
+Das zentrale Anliegen ist der Verlust der kulturellen Identität der Schweiz aufgrund der Einwanderung, wobei andere Rahmenbedingungen diese Erzählung noch verstärken.
