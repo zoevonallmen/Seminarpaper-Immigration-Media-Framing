@@ -10,8 +10,8 @@ library(purrr)
 # Define -----------------------------------------------------------------------
 
 ARTICLES_CSV <- "../Seminarpaper-Immigration-Media-Framing/Data/Test_Articles_20.csv"
-PROMPT_FILE  <- "../Seminarpaper-Immigration-Media-Framing/00_Theory_Testing/Prompts/Prompt A - Few-shot"
-OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Prompt_A_Test_Results.csv"
+PROMPT_FILE  <- "../Seminarpaper-Immigration-Media-Framing/00_Theory_Testing/Prompts/Prompt C - Combined"
+OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Prompt_C_Test_Results.csv"
 
 MODEL        <- "gpt-4o"
 TEMPERATURE  <- 0
@@ -165,7 +165,7 @@ as_chr_vec <- function(x) {
   as.character(unlist(x, use.names = FALSE))
 }
 
-# Mainloop: API Calls 
+# Mainloop: API Calls ---------------------------------------------------------
 results_list <- vector("list", nrow(articles))
 
 for (i in seq_len(nrow(articles))) {
