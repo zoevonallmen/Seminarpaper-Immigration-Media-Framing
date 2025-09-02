@@ -1,0 +1,243 @@
+id,article_nr,frames_present,dominant_frame,justification,resp_accused_actors,moral_position,conflict_parties,raw_text
+980809,1,1;6;8,6,Der Artikel konzentriert sich auf die Verantwortung der Behörden und Unternehmen für den Missbrauch der Personenfreizügigkeit und die daraus resultierenden Probleme.,EU-Ausländer;Schweizer Arbeitgeber;Berner Geschäftsmann,NA,Stadt Bern;fehlbare Unternehmen;Bundesamt für Migration,"{
+    ""frames_present"": [1, 6, 8],
+    ""dominant_frame"": 6,
+    ""justification"": ""Der Artikel konzentriert sich auf die Verantwortung der Behörden und Unternehmen für den Missbrauch der Personenfreizügigkeit und die daraus resultierenden Probleme."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU-Ausländer"", ""Schweizer Arbeitgeber"", ""Berner Geschäftsmann""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""Stadt Bern"", ""fehlbare Unternehmen"", ""Bundesamt für Migration""]
+    }
+}"
+937658,2,1;6;7;8,7,"Der Artikel argumentiert gegen die Initiative mit einem moralischen Appell, indem er sie als fremdenfeindlich bezeichnet und betont, dass sie auf Kosten der Schwächsten geht.",Verfasser der Initiative,liberal,Befürworter der Initiative;Gegner der Initiative,"{
+    ""frames_present"": [1, 6, 7, 8],
+    ""dominant_frame"": 7,
+    ""justification"": ""Der Artikel argumentiert gegen die Initiative mit einem moralischen Appell, indem er sie als fremdenfeindlich bezeichnet und betont, dass sie auf Kosten der Schwächsten geht."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""Verfasser der Initiative""]
+    },
+    ""moral_frame"": {
+        ""position"": ""liberal""
+    },
+    ""conflict_frame"": {
+        ""parties"": [""Befürworter der Initiative"", ""Gegner der Initiative""]
+    }
+}"
+1025385,3,2;6;8,2,"Der Artikel hebt die Vorteile der Personenfreizügigkeit und die positive Integration der Schweizer in Frankreich hervor, was den wirtschaftlichen Nutzen der Einwanderung betont.",fremdenfeindliche Bewegungen,NA,Schweizer Emigranten;fremdenfeindliche Bewegungen,"{
+    ""frames_present"": [2, 6, 8],
+    ""dominant_frame"": 2,
+    ""justification"": ""Der Artikel hebt die Vorteile der Personenfreizügigkeit und die positive Integration der Schweizer in Frankreich hervor, was den wirtschaftlichen Nutzen der Einwanderung betont."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""fremdenfeindliche Bewegungen""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""Schweizer Emigranten"", ""fremdenfeindliche Bewegungen""]
+    }
+}"
+941330,4,1;6;8,1,"Der Artikel argumentiert, dass die Zuwanderungsinitiative der SVP keine wirtschaftlichen Probleme verursachen würde, selbst wenn die EU die Bilateralen I kündigt, und dass es Alternativen gibt, um den Wohlstand zu sichern.",EU;Wirtschaft,NA,SVP;EU;Wirtschaft,"{
+    ""frames_present"": [1, 6, 8],
+    ""dominant_frame"": 1,
+    ""justification"": ""Der Artikel argumentiert, dass die Zuwanderungsinitiative der SVP keine wirtschaftlichen Probleme verursachen würde, selbst wenn die EU die Bilateralen I kündigt, und dass es Alternativen gibt, um den Wohlstand zu sichern."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU"", ""Wirtschaft""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""SVP"", ""EU"", ""Wirtschaft""]
+    }
+}"
+1014721,5,2;7;8,7,Der Artikel betont die moralische Verpflichtung zur Gleichbehandlung und die Freizügigkeit als zivilisatorischen Fortschritt.,NA,liberal,EU-Parlament;einige EU-Mitgliedstaaten,"{
+    ""frames_present"": [2, 7, 8],
+    ""dominant_frame"": 7,
+    ""justification"": ""Der Artikel betont die moralische Verpflichtung zur Gleichbehandlung und die Freizügigkeit als zivilisatorischen Fortschritt."",
+    ""responsibility_frame"": null,
+    ""moral_frame"": {
+        ""position"": ""liberal""
+    },
+    ""conflict_frame"": {
+        ""parties"": [""EU-Parlament"", ""einige EU-Mitgliedstaaten""]
+    }
+}"
+1288456,6,1;6;8,1,"Der Artikel betont die Belastung der Sozialwerke durch Zuwanderer, insbesondere durch die Inanspruchnahme von Arbeitslosengeldern durch EU-/Efta-Bürger.",EU;Zuwanderer;Schweizer Regierung,NA,FDP;SVP;CVP;Schweizer Regierung,"{
+    ""frames_present"": [1, 6, 8],
+    ""dominant_frame"": 1,
+    ""justification"": ""Der Artikel betont die Belastung der Sozialwerke durch Zuwanderer, insbesondere durch die Inanspruchnahme von Arbeitslosengeldern durch EU-/Efta-Bürger."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU"", ""Zuwanderer"", ""Schweizer Regierung""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""FDP"", ""SVP"", ""CVP"", ""Schweizer Regierung""]
+    }
+}"
+939756,7,1;3;4;6;7,1,"Der Artikel betont die negativen wirtschaftlichen Auswirkungen der Einwanderung, wie verstopfte Straßen und überfüllte Züge, und argumentiert für eine Kontingentierung.",EU,restriktiv,NA,"{
+    ""frames_present"": [1, 3, 4, 6, 7],
+    ""dominant_frame"": 1,
+    ""justification"": ""Der Artikel betont die negativen wirtschaftlichen Auswirkungen der Einwanderung, wie verstopfte Straßen und überfüllte Züge, und argumentiert für eine Kontingentierung."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU""]
+    },
+    ""moral_frame"": {
+        ""position"": ""restriktiv""
+    },
+    ""conflict_frame"": null
+}"
+1040064,8,2;6;7,2,Der Artikel betont den wirtschaftlichen Nutzen der Personenfreizügigkeit und warnt vor den negativen Folgen einer Abschottung für den Wohlstand der Schweiz.,Migrationsbehörden;Initianten der Abschottungsinitiative,liberal,NA,"{
+    ""frames_present"": [2, 6, 7],
+    ""dominant_frame"": 2,
+    ""justification"": ""Der Artikel betont den wirtschaftlichen Nutzen der Personenfreizügigkeit und warnt vor den negativen Folgen einer Abschottung für den Wohlstand der Schweiz."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""Migrationsbehörden"", ""Initianten der Abschottungsinitiative""]
+    },
+    ""moral_frame"": {
+        ""position"": ""liberal""
+    },
+    ""conflict_frame"": null
+}"
+1061274,9,1;2;6;8,8,"Der Artikel beschreibt die Diskussion zwischen zwei Politikern über die Einwanderungsinitiative, wobei unterschiedliche Standpunkte zur Steuerung der Zuwanderung und den wirtschaftlichen Auswirkungen hervorgehoben werden.",EU,NA,Arthur Loepfe (CVP/AI);Peter Föhn (SVP/SZ),"{
+    ""frames_present"": [1, 2, 6, 8],
+    ""dominant_frame"": 8,
+    ""justification"": ""Der Artikel beschreibt die Diskussion zwischen zwei Politikern über die Einwanderungsinitiative, wobei unterschiedliche Standpunkte zur Steuerung der Zuwanderung und den wirtschaftlichen Auswirkungen hervorgehoben werden."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""Arthur Loepfe (CVP/AI)"", ""Peter Föhn (SVP/SZ)""]
+    }
+}"
+971948,10,2;7,2,"Der Artikel betont die wirtschaftliche Notwendigkeit der Einwanderung, um wichtige Sektoren der Schweizer Wirtschaft aufrechtzuerhalten.",NA,liberal,NA,"{
+    ""frames_present"": [2, 7],
+    ""dominant_frame"": 2,
+    ""justification"": ""Der Artikel betont die wirtschaftliche Notwendigkeit der Einwanderung, um wichtige Sektoren der Schweizer Wirtschaft aufrechtzuerhalten."",
+    ""responsibility_frame"": null,
+    ""moral_frame"": {
+        ""position"": ""liberal""
+    },
+    ""conflict_frame"": null
+}"
+928230,11,6;7;8,6,"Der Artikel betont die Verantwortung des Bundesrats, Verhandlungen zur Personenfreizügigkeit aufzunehmen, und kritisiert die Verwaltung und Bundesbern für ihre Distanz zu den Problemen der Zuwanderung.",Bundesrat;Verwaltung;Bundesbern,restriktiv,SVP;Bundesrat;Verwaltung,"{
+    ""frames_present"": [6, 7, 8],
+    ""dominant_frame"": 6,
+    ""justification"": ""Der Artikel betont die Verantwortung des Bundesrats, Verhandlungen zur Personenfreizügigkeit aufzunehmen, und kritisiert die Verwaltung und Bundesbern für ihre Distanz zu den Problemen der Zuwanderung."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""Bundesrat"", ""Verwaltung"", ""Bundesbern""]
+    },
+    ""moral_frame"": {
+        ""position"": ""restriktiv""
+    },
+    ""conflict_frame"": {
+        ""parties"": [""SVP"", ""Bundesrat"", ""Verwaltung""]
+    }
+}"
+1214131,12,1;2;6;8,6,"Der Artikel fokussiert auf die Verantwortung des Bundesrats und der Wirtschaft bei der Regulierung der Zuwanderung und die historischen Maßnahmen, die ergriffen wurden.",Bundesrat;Wirtschaft,NA,Bundesrat;SVP;Wirtschaft;Kantone,"{
+    ""frames_present"": [1, 2, 6, 8],
+    ""dominant_frame"": 6,
+    ""justification"": ""Der Artikel fokussiert auf die Verantwortung des Bundesrats und der Wirtschaft bei der Regulierung der Zuwanderung und die historischen Maßnahmen, die ergriffen wurden."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""Bundesrat"", ""Wirtschaft""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""Bundesrat"", ""SVP"", ""Wirtschaft"", ""Kantone""]
+    }
+}"
+971914,13,6;7,7,"Der Artikel verwendet religiöse und moralische Argumente, um gegen die Einwanderung zu argumentieren, indem er die Verantwortung der Gläubigen betont, gegen das 'Römische Reich Europa' und die UNO zu stimmen.",Römisches Reich Europa;UNO,restriktiv,NA,"{
+    ""frames_present"": [6, 7],
+    ""dominant_frame"": 7,
+    ""justification"": ""Der Artikel verwendet religiöse und moralische Argumente, um gegen die Einwanderung zu argumentieren, indem er die Verantwortung der Gläubigen betont, gegen das 'Römische Reich Europa' und die UNO zu stimmen."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""Römisches Reich Europa"", ""UNO""]
+    },
+    ""moral_frame"": {
+        ""position"": ""restriktiv""
+    },
+    ""conflict_frame"": null
+}"
+1073993,14,6;8,6,"Der Artikel fokussiert auf die Verantwortung der EU und der Schweiz im Umgang mit Sanktionen und der Notwendigkeit eines Schiedsgerichts, um die Schweiz vor unverhältnismässigen Sanktionen der EU zu schützen.",EU,NA,Schweiz;EU,"{
+    ""frames_present"": [6, 8],
+    ""dominant_frame"": 6,
+    ""justification"": ""Der Artikel fokussiert auf die Verantwortung der EU und der Schweiz im Umgang mit Sanktionen und der Notwendigkeit eines Schiedsgerichts, um die Schweiz vor unverhältnismässigen Sanktionen der EU zu schützen."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""Schweiz"", ""EU""]
+    }
+}"
+1200044,15,1;2;6;7;8,8,"Der Artikel betont den politischen Konflikt zwischen der SVP und linken Parteien über die Einwanderungsinitiative, wobei unterschiedliche Ansichten über die Auswirkungen auf die Schweiz und die bilateralen Verträge im Vordergrund stehen.",SVP,liberal,SVP;linke Parteien,"{
+    ""frames_present"": [1, 2, 6, 7, 8],
+    ""dominant_frame"": 8,
+    ""justification"": ""Der Artikel betont den politischen Konflikt zwischen der SVP und linken Parteien über die Einwanderungsinitiative, wobei unterschiedliche Ansichten über die Auswirkungen auf die Schweiz und die bilateralen Verträge im Vordergrund stehen."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""SVP""]
+    },
+    ""moral_frame"": {
+        ""position"": ""liberal""
+    },
+    ""conflict_frame"": {
+        ""parties"": [""SVP"", ""linke Parteien""]
+    }
+}"
+1085102,16,1;6;8,6,"Der Artikel fokussiert auf die Maßnahmen der britischen Regierung, um die Einwanderung zu begrenzen, und macht die EU und zukünftige EU-Mitglieder für die Notwendigkeit dieser Maßnahmen verantwortlich.",EU;zukünftige EU-Mitglieder,NA,britische Regierung;EU;zukünftige EU-Mitglieder,"{
+    ""frames_present"": [1, 6, 8],
+    ""dominant_frame"": 6,
+    ""justification"": ""Der Artikel fokussiert auf die Maßnahmen der britischen Regierung, um die Einwanderung zu begrenzen, und macht die EU und zukünftige EU-Mitglieder für die Notwendigkeit dieser Maßnahmen verantwortlich."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU"", ""zukünftige EU-Mitglieder""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""britische Regierung"", ""EU"", ""zukünftige EU-Mitglieder""]
+    }
+}"
+969517,17,2;6;8,6,"Der Artikel fokussiert stark auf die Verantwortung der Schweiz und ihrer politischen Akteure, insbesondere Micheline Calmy-Rey, in Bezug auf die Aussenpolitik und die EU-Beitrittsfrage.",Schweizer Regierung;Micheline Calmy-Rey,NA,Micheline Calmy-Rey;Didier Burkhalter;Christoph Blocher,"{
+    ""frames_present"": [2, 6, 8],
+    ""dominant_frame"": 6,
+    ""justification"": ""Der Artikel fokussiert stark auf die Verantwortung der Schweiz und ihrer politischen Akteure, insbesondere Micheline Calmy-Rey, in Bezug auf die Aussenpolitik und die EU-Beitrittsfrage."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""Schweizer Regierung"", ""Micheline Calmy-Rey""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""Micheline Calmy-Rey"", ""Didier Burkhalter"", ""Christoph Blocher""]
+    }
+}"
+951714,18,1;6;7,1,"Der Artikel argumentiert, dass die Initiative wirtschaftliche Vorteile bringt, indem sie den Schweizer Arbeitsmarkt schützt und soziale Kosten reduziert.",EU;Befürworter der Personenfreizügigkeit,restriktiv,NA,"{
+    ""frames_present"": [1, 6, 7],
+    ""dominant_frame"": 1,
+    ""justification"": ""Der Artikel argumentiert, dass die Initiative wirtschaftliche Vorteile bringt, indem sie den Schweizer Arbeitsmarkt schützt und soziale Kosten reduziert."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU"", ""Befürworter der Personenfreizügigkeit""]
+    },
+    ""moral_frame"": {
+        ""position"": ""restriktiv""
+    },
+    ""conflict_frame"": null
+}"
+1214371,19,1;6,1,Der Artikel beschreibt die Einwanderung als wirtschaftliche Bedrohung durch Lohndumping und die Umgehung von Mindestlöhnen durch ausländische Firmen.,EU-Firmen;Schweizer Behörden,NA,NA,"{
+    ""frames_present"": [1, 6],
+    ""dominant_frame"": 1,
+    ""justification"": ""Der Artikel beschreibt die Einwanderung als wirtschaftliche Bedrohung durch Lohndumping und die Umgehung von Mindestlöhnen durch ausländische Firmen."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""EU-Firmen"", ""Schweizer Behörden""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": null
+}"
+1177989,20,2;6;8,2,"Der Artikel argumentiert, dass Bevölkerungsdichte und Einwanderung wirtschaftlich vorteilhaft sind, indem sie Kreativität und Innovation fördern.",Hans Fehr;SVP,NA,liberale Lager;Einwanderungskritiker,"{
+    ""frames_present"": [2, 6, 8],
+    ""dominant_frame"": 2,
+    ""justification"": ""Der Artikel argumentiert, dass Bevölkerungsdichte und Einwanderung wirtschaftlich vorteilhaft sind, indem sie Kreativität und Innovation fördern."",
+    ""responsibility_frame"": {
+        ""accused_actors"": [""Hans Fehr"", ""SVP""]
+    },
+    ""moral_frame"": null,
+    ""conflict_frame"": {
+        ""parties"": [""liberale Lager"", ""Einwanderungskritiker""]
+    }
+}"
