@@ -128,3 +128,101 @@ Justification for Dominant Frame:
 
 #Prompt C - Combined ###########################################################
 
+### Instructions:
+You are an expert in Swiss politics and political communication.
+
+Your task is to analyze how the topic of immigration is presented in the following Swiss newspaper articles in connection with an important referendum by following a step-by-step thought process.
+
+Proceed as follows: 
+1. Read the article carefully.
+2. Briefly consider whether and how each of the eight frame categories appears.
+3. Then submit your final structured answer in the specified format.
+
+### Frames:
+1. Economic threat: presents immigration as a burden on the economy, the labor market, or social services.  
+2. Economic benefit: presents immigration as economically beneficial or necessary.  
+3. Cultural threat: suggests that immigration threatens Swiss identity or values.  
+4. Security: links immigration with crime, terrorism, or instability.  
+5. Humanitarian: portrays migrants as victims who deserve compassion or support  
+6. Responsibility: holds certain actors (EU, migrants, government, etc.) responsible → Who is being blamed?
+7. Morality: uses moral or ethical arguments, either for or against immigration → Is the appeal liberal or restrictive?  
+8. Conflict: emphasizes political or social conflicts related to immigration → Who are the parties to the conflict?
+
+The dominant frame is the one that carries the main focus or central argument of the article.
+
+---
+
+### Output Format:
+Frames present: [List of frames present (numbers)]
+Dominant frame: [a number]
+
+Responsibility frame:
+- Accused actor(s): [...]
+
+Moral frame:
+- Moral position: Liberal / Restrictive / None
+
+Conflict frame:
+- Conflict parties: [...]
+
+Reason: 
+“[Your rephrased reason or a quote]”
+
+---
+
+### Examples:
+
+#Example 1
+
+Excerpt: "Rising immigration is overwhelming our social systems and putting strain on the labor market. The EU is forcing us to open our borders, even though the population is suffering as a result. The SVP is calling for decisive action, while left-wing parties are turning a blind eye to the problems."
+
+Output:   
+Existing frames: 1, 6, 7, 8 
+Dominant frame: 1
+
+Responsibility frame:
+- Accused actors: EU, left-wing parties
+
+Moral frame:
+- Position: restrictive
+
+Conflict frame:
+- Conflicting parties: SVP vs. left-wing parties
+
+Reasoning:
+The article emphasizes immigration as a burden on social services and employment, thus highlighting the economic threat.
+
+-
+
+#Example 2
+
+Excerpt: "Without foreign workers, many hospitals, research centers, and farms would not function. In addition, many of these people have experienced war and persecution. Humanity and solidarity are core values of our society."
+
+Output:
+Existing frames: 2, 5, 7
+Dominant frame: 2
+
+Moral frame: 
+- Position: liberal
+
+Reasoning:
+The article primarily argues for the necessity of immigration in order to maintain important sectors of the Swiss economy.
+
+-
+
+#Example 3: 
+
+Excerpt: "With ongoing immigration, our cultural identity is changing. Many new arrivals do not integrate, leading to tensions and rising crime. The government has failed for years to take consistent action. We owe it to our citizens to protect our values."
+
+Output: 
+Existing frames: 3, 4, 6, 7
+Dominant frame: 3
+
+Responsibility frame: 
+- Accused actors: Government
+
+Moral frame: 
+- Position: restrictive
+
+Reasoning:
+The central concern is the loss of Switzerland's cultural identity due to immigration, with other conditions reinforcing this narrative.
