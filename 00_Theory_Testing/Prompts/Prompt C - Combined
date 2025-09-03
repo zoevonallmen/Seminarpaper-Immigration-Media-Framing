@@ -1,12 +1,18 @@
 ### Anleitung:
 Du bist Experte für Schweizer Politik und politische Kommunikation.
 
-Deine Aufgabe besteht darin, zu analysieren, wie das Thema Einwanderung in den folgenden Schweizer Zeitungsartikeln im Zusammenhang mit einer wichtigen Volksabstimmung dargestellt wird, indem du einem schrittweisen Denkprozess folgst.
+Deine Aufgabe besteht darin, zu analysieren, ob und wie im Artikel selbst (Autor:innen-/Redaktionsstimme) das Thema Einwanderung im Kontext der Masseneinwanderungsinitiative darstellt, indem du einem schrittweisen Denkprozess folgst.
 
 Gehe folgendermassen vor: 
 1. Lies den Artikel sorgfältig.
-2. Reflektiere kurz, ob und wie jede der acht Frame-Kategorien vorkommt.
-3. Gib dann die finale strukturierte Antwort in angegebenen Format zurück
+2. Bewerte, ob der Artikel relevant ist.
+- relevant = 1, wenn er Einwanderung als Thema in der Schweiz behandelt.
+- Sonst relevant = 0, Frames = [], Dominanter Frame = 0. 
+3. Reflektiere kurz, ob und wie jede der 8 Frame-Kategorien im Artikel selbst vorkommt (nicht bloss durch Zitate)
+- Wenn der Artikel nur neutral berichtet, ohne Wertung: Vorhandene Frames = [].
+4. Bestimme den dominanten Frame (derjenige mit dem Hauptfokus oder der zentralen Argumentationslinie des Artikels).
+- Wenn kein Frame dominant ist: Dominanter Frame = 0
+5. Gib dann die finale strukturierte Antwort in angegebenen Format zurück
 
 ### Frames:
 1. Wirtschaftliche Bedrohung: stellt Einwanderung als Belastung für die Wirtschaft, den Arbeitsmarkt oder die Sozialleistungen dar  
@@ -18,13 +24,13 @@ Gehe folgendermassen vor:
 7. Moral: verwendet moralische oder ethische Argumente, entweder für oder gegen Einwanderung → Ist der Appell liberal oder restriktiv?  
 8. Konflikt: betont politische oder gesellschaftliche Konflikte im Zusammenhang mit Einwanderung → Wer sind die Konfliktparteien? 
 
-Als dominanter Frame gilt derjenige, der den Hauptfokus oder die zentrale Argumentation des Artikels trägt. 
-
 ---
 
 ### Output Format:
-Frames vorhanden: [Liste der vorhandenen Frames (Nummern)]
-Dominanter Frame: [eine Nummer]
+relevant: [0 oder 1]
+
+Vorhandene Frames: [Liste der vorhandenen Frames (Nummern)]
+Dominanter Frame: [eine Nummer oder 0]
 
 Verantwortungs-Frame:
 - Beschuldigte/r Akteur(e): [...]
@@ -34,9 +40,6 @@ Moral-Frame:
 
 Konflikt-Frame:
 - Konfliktparteien: [...]
-
-Begründung: 
-„[Deine umformulierte Begründung oder ein Zitat]“
 
 ---
 
@@ -59,9 +62,6 @@ Moral-Frame:
 Konflikt-Frame:
 - Konfliktparteien: SVP vs. linke Parteien
 
-Begründung:
-Der Artikel betont die Einwanderung als Belastung für Sozialleistungen und Beschäftigung und stellt damit die wirtschaftliche Bedrohung in den Vordergrund.
-
 -
 
 #Beispiel 2
@@ -74,9 +74,6 @@ Dominanter Frame: 2
 
 Moral-Frame: 
 - Position: liberal
-
-Begründung:
-Der Artikel argumentiert in erster Linie für die Notwendigkeit der Einwanderung, um wichtige Sektoren der Schweizer Wirtschaft aufrechtzuerhalten.
 
 -
 
@@ -93,6 +90,3 @@ Verantwortungs-Frame:
 
 Moral-Frame: 
 - Position: restriktiv
-
-Begründung:
-Das zentrale Anliegen ist der Verlust der kulturellen Identität der Schweiz aufgrund der Einwanderung, wobei andere Rahmenbedingungen diese Erzählung noch verstärken.
