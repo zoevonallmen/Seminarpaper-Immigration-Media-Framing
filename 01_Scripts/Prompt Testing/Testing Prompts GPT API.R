@@ -9,9 +9,9 @@ library(purrr)
 
 # Define -----------------------------------------------------------------------
 
-ARTICLES_CSV <- "../Seminarpaper-Immigration-Media-Framing/Data/Test_Articles_20.csv"
+ARTICLES_CSV <- "../Seminarpaper-Immigration-Media-Framing/Data/Test_Articles_50.csv"
 PROMPT_FILE  <- "../Seminarpaper-Immigration-Media-Framing/00_Theory_Testing/Prompts/Prompt C - Combined"
-OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Prompt_C_Test_Results.csv"
+OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Final_Prompt_Test_1_50.csv"
 
 MODEL        <- "gpt-4o"
 TEMPERATURE  <- 0
@@ -66,6 +66,7 @@ build_messages <- function(instruction_prompt, article_text) {
         "Analysiere folgenden Zeitungsartikel.\n\n---\n", article_text, "\n---\n\n",
         "Antworte AUSSCHLIESSLICH mit gültigem JSON.\n",
         "Verwende GENAU diese Feldnamen (in Englisch, nicht übersetzen!):\n",
+        "- relevant  (0 oder 1)\n",
         "- frames_present\n",
         "- dominant_frame\n",
         "- responsibility_frame (mit Feld: accused_actors)\n",
@@ -122,6 +123,7 @@ normalize_keys <- function(lst) {
   
   # Top-Level rename
   names(lst) <- names(lst) |>
+    str_replace("^relevant$", "relevant") |>
     str_replace("^Vorhandene\\s*Frames$", "frames_present") |>
     str_replace("^Dominanter\\s*Frame$", "dominant_frame") |>
     str_replace("^Verantwortungs-Frame$", "responsibility_frame") |>
@@ -161,6 +163,19 @@ as_chr_vec <- function(x) {
     if (length(parts) == 0) return(NA_character_) else return(parts)
   }
   as.character(unlist(x, use.names = FALSE))
+}
+
+# Coerce relevant to 0/1 integer
+coerce_relevant01 <- function(x) {
+  if (is.null(x) || length(x) == 0) return(NA_integer_)
+  if (is.logical(x)) return(as.integer(x))
+  if (is.numeric(x)) return(as.integer(ifelse(is.na(x), NA, ifelse(x != 0, 1, 0))))
+  if (is.character(x)) {
+    x <- tolower(trimws(x))
+    if (x %in% c("1","true","ja","yes")) return(1L)
+    if (x %in% c("0","false","nein","no")) return(0L)
+  }
+  suppressWarnings(as.integer(x))
 }
 
 # Mainloop: API Calls ---------------------------------------------------------
@@ -209,6 +224,7 @@ for (i in seq_len(nrow(articles))) {
 flat <- map_dfr(results_list, function(x) {
   if (!isTRUE(x$ok)) {
     tibble(
+      relevant            = NA_integer_,
       frames_present      = NA_character_,
       dominant_frame      = NA_integer_,
       resp_accused_actors = NA_character_,
@@ -219,6 +235,7 @@ flat <- map_dfr(results_list, function(x) {
   } else {
     lst <- normalize_keys(x$parsed)  # <- deutsch → english (Top + nested)
     
+    relevant_val  <- coerce_relevant01(pluck_or(lst, "relevant", default = NA))
     frames_present <- pluck_or(lst, "frames_present", default = NA)
     dominant_frame <- pluck_or(lst, "dominant_frame", default = NA)
     
@@ -231,6 +248,7 @@ flat <- map_dfr(results_list, function(x) {
     conflict_party <- if (!is.null(conflict_frame)) as_chr_vec(pluck_or(conflict_frame, "parties", default = NA)) else NA
     
     tibble(
+      relevant            = relevant_val,
       frames_present      = if (all(is.na(frames_present))) NA_character_ else paste(frames_present, collapse = ";"),
       dominant_frame      = suppressWarnings(as.integer(dominant_frame)),
       resp_accused_actors = if (all(is.na(resp_accused))) NA_character_ else paste(resp_accused, collapse = ";"),
