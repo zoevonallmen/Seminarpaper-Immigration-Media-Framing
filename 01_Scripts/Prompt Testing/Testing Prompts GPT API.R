@@ -68,7 +68,6 @@ build_messages <- function(instruction_prompt, article_text) {
         "Verwende GENAU diese Feldnamen (in Englisch, nicht übersetzen!):\n",
         "- frames_present\n",
         "- dominant_frame\n",
-        "- justification\n",
         "- responsibility_frame (mit Feld: accused_actors)\n",
         "- moral_frame (mit Feld: position)\n",
         "- conflict_frame (mit Feld: parties)\n",
@@ -125,7 +124,6 @@ normalize_keys <- function(lst) {
   names(lst) <- names(lst) |>
     str_replace("^Vorhandene\\s*Frames$", "frames_present") |>
     str_replace("^Dominanter\\s*Frame$", "dominant_frame") |>
-    str_replace("^Begründung$", "justification") |>
     str_replace("^Verantwortungs-Frame$", "responsibility_frame") |>
     str_replace("^Moral-Frame$", "moral_frame") |>
     str_replace("^Konflikt-Frame$", "conflict_frame")
@@ -213,7 +211,6 @@ flat <- map_dfr(results_list, function(x) {
     tibble(
       frames_present      = NA_character_,
       dominant_frame      = NA_integer_,
-      justification       = NA_character_,
       resp_accused_actors = NA_character_,
       moral_position      = NA_character_,
       conflict_parties    = NA_character_,
@@ -224,7 +221,6 @@ flat <- map_dfr(results_list, function(x) {
     
     frames_present <- pluck_or(lst, "frames_present", default = NA)
     dominant_frame <- pluck_or(lst, "dominant_frame", default = NA)
-    justification  <- pluck_or(lst, "justification",  default = NA)
     
     resp_frame     <- pluck_or(lst, "responsibility_frame", default = NULL)
     moral_frame    <- pluck_or(lst, "moral_frame",          default = NULL)
@@ -237,7 +233,6 @@ flat <- map_dfr(results_list, function(x) {
     tibble(
       frames_present      = if (all(is.na(frames_present))) NA_character_ else paste(frames_present, collapse = ";"),
       dominant_frame      = suppressWarnings(as.integer(dominant_frame)),
-      justification       = justification,
       resp_accused_actors = if (all(is.na(resp_accused))) NA_character_ else paste(resp_accused, collapse = ";"),
       moral_position      = if (all(is.na(moral_pos))) NA_character_ else as.character(moral_pos),
       conflict_parties    = if (all(is.na(conflict_party))) NA_character_ else paste(conflict_party, collapse = ";"),
@@ -247,7 +242,7 @@ flat <- map_dfr(results_list, function(x) {
 })
 
 results <- articles |>
-  select(id, article_nr) |>
+  select(id, article_nr, medium_code) |>
   bind_cols(flat)
 
 # Save Results -----------------------------------------------------------------
