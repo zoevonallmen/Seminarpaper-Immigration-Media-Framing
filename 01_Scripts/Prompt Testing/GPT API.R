@@ -9,9 +9,9 @@ library(purrr)
 
 # Define -----------------------------------------------------------------------
 
-ARTICLES_CSV <- "../Seminarpaper-Immigration-Media-Framing/Data/Test_Articles_50.csv"
+ARTICLES_CSV <- "../Seminarpaper-Immigration-Media-Framing/Data/Final_Articles.csv"
 PROMPT_FILE  <- "../Seminarpaper-Immigration-Media-Framing/00_Theory_Testing/Prompts/Prompt C - Combined"
-OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Final_Prompt_Test_2_50.csv"
+OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Final_Dataset.csv"
 
 MODEL        <- "gpt-4o"
 TEMPERATURE  <- 0
