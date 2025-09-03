@@ -11,7 +11,7 @@ library(purrr)
 
 ARTICLES_CSV <- "../Seminarpaper-Immigration-Media-Framing/Data/Test_Articles_50.csv"
 PROMPT_FILE  <- "../Seminarpaper-Immigration-Media-Framing/00_Theory_Testing/Prompts/Prompt C - Combined"
-OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Final_Prompt_Test_1_50.csv"
+OUT_CSV      <- "../Seminarpaper-Immigration-Media-Framing/Data/Final_Prompt_Test_2_50.csv"
 
 MODEL        <- "gpt-4o"
 TEMPERATURE  <- 0
@@ -266,4 +266,4 @@ results <- articles |>
 # Save Results -----------------------------------------------------------------
 
 write_csv(results, OUT_CSV)
-cat("\nGespeichert unter: ", OUT_CSV, "\n")
+
